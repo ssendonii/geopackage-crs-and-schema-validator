@@ -7,6 +7,4 @@ A schema for one of the geopackage types is hard-coded and used as basis for com
 
 To use:
 
-Place the script and geopackage file on the same directory and replace the geopackage filename value on line 25 GPKG_FILENAME variable.
-
-GPKG_FILENAME = "SAMPLE.gpkg"
+Place the script and geopackage file on the same directory and replace the variable values under the CONFIGURATION section (lines 25 to 37).
