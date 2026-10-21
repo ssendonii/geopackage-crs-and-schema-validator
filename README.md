@@ -4,3 +4,9 @@ A read-only GeoPackage feature-layer schema and CRS metadata validator plus coor
 This was created to automate the initial validation when receiving geopackages as part of the Philippine Mines & Geosciences Bureau (MGB) compliance requirements.
 
 A schema for one of the geopackage types is hard-coded and used as basis for comparison.
+
+To use:
+
+Place the script and geopackage file on the same directory and replace the geopackage filename value on line 25 GPKG_FILENAME variable.
+
+GPKG_FILENAME = "SAMPLE.gpkg"
