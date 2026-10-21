@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 GeoPackage Schema Inspector and Validator
-© OCTOBER 2026 - SUNBEAMGEO ANALYTICS AND INFORMATICS
+© OCTOBER 21, 2026 - Samuel II T. Sendon
+SUNBEAMGEO ANALYTICS AND INFORMATICS
 https://sunbeamgeoanalytics.com
 
 Version: 0.2.3
@@ -22,7 +23,7 @@ from pathlib import Path
 # ============================================================
 # 1. CONFIGURATION
 # ============================================================
-GPKG_FILENAME = "SamplePolygonError_gpkg.gpkg"
+GPKG_FILENAME = "SAMPLE.gpkg"
 EXPORT_TXT = True
 TARGET_LAYER = None          # None validates all registered feature layers
 CASE_SENSITIVE = True
