@@ -3,7 +3,7 @@ This is a read-only GeoPackage feature-layer schema and CRS metadata validator p
 
 This was created to automate the initial validation when receiving geopackages as part of the Philippine Mines & Geosciences Bureau (MGB) compliance requirements.
 
-A schema for one of the geopackage types is hard-coded and used as basis for comparison.
+A schema for one of the required geopackages is hard-coded and used as basis for comparison.
 
 To use:
 
