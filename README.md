@@ -1,2 +1,6 @@
 # geopackage-crs-and-schema-validator
-A read-only GeoPackage feature-layer schema and CRS metadata validator plus coordinate plausibility screening. Creates a plain text file that contains the PASS / FAIL report.  Requirements: Python 3.9+, standard library only.
+A read-only GeoPackage feature-layer schema and CRS metadata validator plus coordinate plausibility screening. A PASS / FAIL report in plain text is then provided as part of the output.  Requirements: Python 3.9+, standard library only.
+
+This was created to automate the initial validation when receiving geopackages as part of the Philippine Mines & Geosciences Bureau (MGB) compliance requirements.
+
+A schema for one of the geopackage types is hard-coded and used as basis for comparison.
