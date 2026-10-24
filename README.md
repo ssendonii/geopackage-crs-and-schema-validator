@@ -1,5 +1,7 @@
 # geopackage-crs-and-schema-validator
-This is a read-only GeoPackage feature-layer schema and CRS metadata validator plus coordinate plausibility screening. A PASS / FAIL report in plain text is then provided as part of the output.  Requirements: Python 3.9+, standard library only.
+This is a Python script designed to inspect, validate, and generate plain-text reports for GeoPackage feature-layer schemas. It specifically checks datasets against the EPSG:4683 (PRS92) coordinate reference system and performs deep geometric coordinate checks. Additionally, the code reads SQLite databases, parses Well-Known Binary (WKB) geometry structures, and screens for structural discrepancies or out-of-bounds geographic data. Ultimately, the utility outputs PASS or FAIL results to help analysts ensure spatial data files meet precise attribute and spatial standards.
+
+Requirements: Python 3.9+, standard library only.
 
 This was created to automate the initial validation when receiving geopackages as part of the Philippine Mines & Geosciences Bureau (MGB) compliance requirements.
 
