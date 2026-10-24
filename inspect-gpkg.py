@@ -4,7 +4,6 @@ GeoPackage Schema Inspector and Validator
 © OCTOBER 21, 2026 - Samuel II T. Sendon
 SUNBEAMGEO ANALYTICS AND INFORMATICS
 https://sunbeamgeoanalytics.com
-ssendonii@gmail.com
 
 Version: 0.2.3
 
